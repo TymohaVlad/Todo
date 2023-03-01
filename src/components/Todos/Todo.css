@@ -1,0 +1,34 @@
+.todo__list {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style-type: none;
+}
+.title__list {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 30px;
+  background-color: lightgray;
+  font-weight: 700;
+  font-size: 20px;
+}
+.todo__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  background: gray;
+  font-weight: 400;
+  font-size: 20px;
+  color: aliceblue;
+}
+.modal{
+  background: lightblue;
+}
+.checkbox{
+  width: 20px;
+}
+.close__modal{
+  margin-left: 200px;
+}
